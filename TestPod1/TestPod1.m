@@ -11,7 +11,7 @@
 @implementation TestPod1
 
 +(NSString *)versionString {
-	return @"0.0.1";
+	return @"0.0.2";
 }
 
 
