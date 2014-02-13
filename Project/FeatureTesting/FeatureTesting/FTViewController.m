@@ -20,6 +20,8 @@
 {
     [super viewDidLoad];
 	self.versionLabel.text = [NSString stringWithFormat:@"Local pod version %@", [TestPod1 versionString]];
+
+	[TestPod1 testAFNetworkingRequest];
 }
 
 - (void)didReceiveMemoryWarning

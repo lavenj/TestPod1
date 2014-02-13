@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
   #s.ios.exclude_files = 'Classes/osx'
   #s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
+  s.frameworks = 'MobileCoreServices', 'SystemConfiguration' #for AFNetworking
   s.dependency 'AFNetworking', '~> 1.3'
 end

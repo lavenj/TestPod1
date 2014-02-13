@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AFNetworking.h>
 
 @interface TestPod1 : NSObject
 
 +(NSString *)versionString;
++(void)testAFNetworkingRequest;
 
 @end
