@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/lavenj/TestPod1.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/NAME'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   #s.ios.deployment_target = '7.0'
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
@@ -23,9 +23,9 @@ Pod::Spec.new do |s|
   s.source_files = 'TestPod1'
 #  s.resources = 'Assets'
 
-  s.ios.exclude_files = 'Classes/osx'
-  s.osx.exclude_files = 'Classes/ios'
+  #s.ios.exclude_files = 'Classes/osx'
+  #s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  # s.dependency 'JSONKit', '~> 1.4'
+  s.dependency 'AFNetworking', '~> 1.3'
 end

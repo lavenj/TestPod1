@@ -1,0 +1,2 @@
+pod "TestPod1", :path => "../../TestPod1.podspec"
+
