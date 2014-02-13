@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'NONE'
   s.author           = { "jake" => "lavenj@gmail.com" }
-  s.source           = { :git => "https://github.com/lavenj/NAME.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/lavenj/TestPod1.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/NAME'
 
   s.platform     = :ios, '7.0'
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'TestPod1'
-  s.resources = 'Assets'
+#  s.resources = 'Assets'
 
   s.ios.exclude_files = 'Classes/osx'
   s.osx.exclude_files = 'Classes/ios'
