@@ -1,22 +1,16 @@
-#
-# Be sure to run `pod spec lint NAME.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about the attributes see http://guides.cocoapods.org/syntax/podspec.html
-#
 Pod::Spec.new do |s|
   s.name             = "TestPod1"
   s.version          = "0.0.1"
   s.summary          = "Private CocoaPods Test Pod."
   s.description      = <<-DESC
-                       An optional longer description of TestPod1
+                       For testing private cocoapods/spec repos
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       * Who knows
+                       * if this will work
                        DESC
-  s.homepage         = "http://EXAMPLE/NAME"
+  s.homepage         = "http://github.com/lavenj"
   s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.license          = 'NONE'
   s.author           = { "jake" => "lavenj@gmail.com" }
   s.source           = { :git => "https://github.com/lavenj/NAME.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/NAME'
