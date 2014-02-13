@@ -11,7 +11,7 @@
 @implementation TestPod1
 
 +(NSString *)versionString {
-	return @"0.0.4-local";
+	return @"0.0.4";
 }
 
 +(void)testAFNetworkingRequest {

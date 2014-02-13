@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TestPod1"
-  s.version          = "0.0.2"
+  s.version          = "0.0.4"
   s.summary          = "Private CocoaPods Test Pod."
   s.description      = <<-DESC
                        For testing private cocoapods/spec repos
