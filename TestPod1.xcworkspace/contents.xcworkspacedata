@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:TestPod1"
+      name = "TestPod1">
+      <FileRef
+         location = "group:TestPod1.h">
+      </FileRef>
+      <FileRef
+         location = "group:TestPod1.m">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:TestPod1.podspec">
+   </FileRef>
+   <Group
+      location = "group:Assets"
+      name = "Assets">
+   </Group>
+   <FileRef
+      location = "group:CHANGELOG.md">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:Rakefile">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:Examples/Simple Test/Simple Test.xcodeproj">
+   </FileRef>
+</Workspace>
